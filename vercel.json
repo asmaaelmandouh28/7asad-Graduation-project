@@ -1,0 +1,41 @@
+{
+    "version": 2,
+    "rewrites": [
+        {
+            "source": "/auth/login",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/auth/register",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/auth/profile-complete",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/notifications",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/favourites",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/scan",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/profile",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/product/:id",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/",
+            "destination": "/index.html"
+        }
+    ]
+}
